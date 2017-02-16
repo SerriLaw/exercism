@@ -42,7 +42,7 @@ Execute the tests with:
 In many test suites all but the first test have been skipped.
 
 Once you get a test passing, you can unskip the next one by
-changing `xit` to `it`.
+changing `it` to `it`.
 
 ## Source
 
@@ -50,4 +50,3 @@ JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://ww
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
