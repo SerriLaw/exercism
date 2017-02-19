@@ -5,10 +5,19 @@
 
 var Year = function() {};
 
-Year.prototype.isLeap = function(input) {
-//
-// YOUR CODE GOES HERE
-//
+Year.prototype.isLeap = function(x) {
+  var output = false;
+
+  if (x % 4 === 0) {
+    if (x % 100 !== 0) {
+      output = true;
+    }
+    if (x % 100 === 0 && x % 400 === 0) {
+      output = true;
+    }
+  }
+
+  return output;
 };
 
 module.exports = Year;
